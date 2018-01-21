@@ -6,13 +6,8 @@
 #include <string.h>
 #include <time.h>
 
-struct Bool{
-    int true;
-    int false;
-}Bool;
+typedef enum { false, true } boolean;
 
 int main(int argc, char const *argv[]) {
-  struct Bool bool;
-  bool = {1,0};
 
 }
